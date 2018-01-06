@@ -30,13 +30,15 @@ http://joshdeprez.com/
 - PCE
 - Basilisk II (no longer maintained)
 
-Macintosh ROM file
+Macintosh Plus ROM file
 
-- This bit is *not* FOSS
+- This bit is _not_ FOSS, nor was ever made available for free (but it is easy to find)
 
-System software
+System 6 or 7
 
-- Formerly freely available from Apple
+- Formerly freely available from Apple, now abandonware
+- Try macintoshgarden.org
+
 
 * More Ingredients
 
@@ -46,6 +48,25 @@ Compiler & toolchain
 
 Apple's Universal Interfaces
 
-- Also not FOSS...
+- Also not FOSS... abandonware
+
+Recommended extras
+
+- ResEdit (non-FOSS abandonware)
+- ClarisWorks (non-FOSS abandonware)
 
 Most importantly, a game that you want to make!
+
+* Retro68
+
+It's GCC, essentially - with some extras:
+
+- libretro (part of the magic)
+- ResourceFiles & Rez
+- MakeAPPL, LaunchAPPL
+
+Now supporting Ninja in addition to Cmake!
+
+* Example
+
+
