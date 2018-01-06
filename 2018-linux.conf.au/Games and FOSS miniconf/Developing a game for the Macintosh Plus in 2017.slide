@@ -9,11 +9,43 @@ josh.deprez@gmail.com
 http://joshdeprez.com/
 @DrJosh9000
 
-* Hello
+* Why?
 
-Text
+- Make new use of vintage hardware
+- Massive portability (via emulators)
+- For a lark / as a challenge
+- CPU predates Meltdown & Spectre ;-)
 
-- bullet
-- another bullet
+* Why not?
 
+- Limited!
+- Not featureful
+- Accessibility problems
 
+* Ingredients
+
+68k Macintosh emulator
+
+- Mini vMac (recommended)
+- PCE
+- Basilisk II (no longer maintained)
+
+Macintosh ROM file
+
+- This bit is *not* FOSS
+
+System software
+
+- Formerly freely available from Apple
+
+* More Ingredients
+
+Compiler & toolchain
+
+- Retro68 - https://github.com/autc04/Retro68
+
+Apple's Universal Interfaces
+
+- Also not FOSS...
+
+Most importantly, a game that you want to make
