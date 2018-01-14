@@ -9,6 +9,8 @@ josh.deprez@gmail.com
 https://github.com/DrJosh9000/Talks
 @DrJosh9000
 
+: Hello, welcome to my talk, etc
+
 * Why?
 
 * Why?
@@ -23,11 +25,26 @@ https://github.com/DrJosh9000/Talks
 
 * Okay, why not?
 
-* Why not?
+* The limiting hardware
 
-- Limited! 4 MB RAM, 512 x 342 pixel B&W display...
-- Accessibility problems (compared with modern devices)
-- Toolchain?
+: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. Expect a slow CPU, no more than 4 MB of RAM, no internet access.
+
+.image macpaint.jpg _ 600
+.caption The gorgeous 9 inch, 512 x 384 display of an early Macintosh. Photo & Art: J. Deprez
+
+* Accessibility issues
+
+.image keyboard.jpg _ 600
+.caption Keyboard forever! Photo & Keyboard repair: J. Deprez
+
+: Reason 2: Whether you are deploying to an emulator or to the real thing, the early Macintoshes were built almost entirely upon "state-of-the-art" mouse and keyboard input modality. Modern systems can be more accessible, with though this is often untrue of games.
+
+* Toolchain?
+
+.image mpw.png _ 600
+.caption Macintosh Programmers Workshop, running under Mini vMac.
+
+: Reason 3: You *want* to code in Macintosh Programmers Workshop? Fortunately, you don't have to.
 
 * Getting Started
 
@@ -36,7 +53,8 @@ https://github.com/DrJosh9000/Talks
 Compiler & toolchain
 
 - [[https://github.com/autc04/Retro68][Retro68]].
-- If you don't like modern C / C++11, there's always ASM or Pascal or old C with the original Macintosh Programmers Workshop...I guess?
+- The original Macintosh Programmers Workshop...I guess?
+: If you don't like modern C / C++11, there's always ASM, or Pascal, or old C with the original Macintosh Programmers Workshop...I guess?
 
 Apple's Universal Interfaces (abandonware)
 
