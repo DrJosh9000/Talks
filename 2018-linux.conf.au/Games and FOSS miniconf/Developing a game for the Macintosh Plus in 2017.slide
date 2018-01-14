@@ -27,7 +27,7 @@ https://github.com/DrJosh9000/Talks
 
 * The limiting hardware
 
-: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. Expect a slow CPU, no more than 4 MB of RAM, no internet access.
+: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. Expect a slow CPU, no more than 4 MB of RAM, a small monochrome display, basic sound output, and no internet access.
 
 .image macpaint.jpg _ 600
 .caption The gorgeous 9 inch, 512 x 384 display of an early Macintosh. Photo & Art: J. Deprez
