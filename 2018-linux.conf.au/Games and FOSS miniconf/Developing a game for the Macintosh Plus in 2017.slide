@@ -1,6 +1,6 @@
 Developing a game for the Macintosh Plus in 2017
 Games and FOSS Miniconf, linux.conf.au 2018
-13:20 6 Jan 2018
+11:35 21 Jan 2018
 Tags: games, foss, miniconf, vintage, macintosh, C, retro68, retro, hypercard
 
 Josh Deprez
@@ -11,51 +11,65 @@ http://joshdeprez.com/
 
 * Why?
 
-- Make new use of vintage hardware
+* Why?
+
+- Make new use of vintage hardware (retrocomputing)
 - Massive portability (via emulators)
-- For a lark / as a challenge
-- CPU predates Meltdown & Spectre ;-)
+- For a lark
+- MacPaint and QuickDraw are open source*
+- Motorola 68000 CPU predates Meltdown & Spectre ;-)
+
+*Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. _"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
+
+* Okay, why not?
 
 * Why not?
 
-- Limited!
-- Not featureful
-- Accessibility problems
+- Limited! 4 MB RAM, 512 x 342 pixel B&W display...
+- Accessibility problems (compared with modern devices)
+- Toolchain?
+
+* Getting Started
 
 * Ingredients
 
-68k Macintosh emulator
-
-- Mini vMac (recommended)
-- PCE
-- Basilisk II (no longer maintained)
-
-Macintosh Plus ROM file
-
-- This bit is _not_ FOSS, nor was ever made available for free (but it is easy to find)
-
-System 6 or 7
-
-- Formerly freely available from Apple, now abandonware
-- Try macintoshgarden.org
-
-
-* More Ingredients
-
 Compiler & toolchain
 
-- Retro68 - https://github.com/autc04/Retro68
+- [[https://github.com/autc04/Retro68][Retro68]].
+- If you don't like modern C / C++11, there's always ASM or Pascal or old C with the original Macintosh Programmers Workshop...I guess?
 
-Apple's Universal Interfaces
+Apple's Universal Interfaces (abandonware)
 
-- Also not FOSS... abandonware
+- Can be extracted from (free, abandonware) Macintosh Programmers Workshop...
+- [[https://storage.googleapis.com/awkward/InterfacesAndLibraries.zip][...or found online, somewhere.]]
 
-Recommended extras
+* Recommended extras (1/2)
 
-- ResEdit (non-FOSS abandonware)
-- ClarisWorks (non-FOSS abandonware)
+A 68k Macintosh emulator is strongly recommended. Options:
 
-Most importantly, a game that you want to make!
+- Mini vMac (recommended, especially on Mac)
+- PCE
+- Basilisk II (no longer maintained)
+- Write your own?
+
+* Recommended extras (2/2)
+
+Macintosh Plus ROM file and system software to make the emulator go.
+
+ROM file: _Required_ for emulation, but has never been made available for free.
+
+- [[https://github.com/macmade/Macintosh-ROMs][Easy to find...]]
+- [[http://www.gryphel.com/c/minivmac/extras/copyroms/][Can be dumped from original hardware.]]
+
+System 6: *was* freely available from Apple, now abandonware, seemingly.
+
+- Try [[http://macintoshgarden.org][Macintosh Garden]].
+
+Utilities of the era (more abandonware)
+
+- ResEdit, MacPaint, ClarisWorks
+
+* The Toolchain, Retro68
 
 * Retro68
 
@@ -65,8 +79,6 @@ It's GCC, essentially - with some extras:
 - ResourceFiles & Rez
 - MakeAPPL, LaunchAPPL
 
-Now supporting Ninja in addition to Cmake!
+Now supports Ninja in addition to Cmake!
 
-* Example
-
-
+* Demo time!
