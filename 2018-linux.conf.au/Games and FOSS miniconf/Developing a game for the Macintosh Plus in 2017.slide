@@ -45,10 +45,11 @@ Apple's Universal Interfaces (abandonware)
 
 * Recommended extras (1/2)
 
-A 68k Macintosh emulator is strongly recommended. Options:
+68k Macintosh emulator - strongly recommended. 
+Options:
 
-- Mini vMac (recommended, especially on Mac)
-- PCE
+- [[http://www.gryphel.com/c/minivmac/index.html][Mini vMac]]
+- [[http://www.hampa.ch/pce/][PCE]]
 - Basilisk II (no longer maintained)
 - Write your own?
 
