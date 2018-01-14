@@ -50,26 +50,30 @@ https://github.com/DrJosh9000/Talks
 
 * Ingredients
 
-Compiler & toolchain
+Compiler & toolchain. For this talk: [[https://github.com/autc04/Retro68][Retro68]].
 
-- [[https://github.com/autc04/Retro68][Retro68]].
-- The original Macintosh Programmers Workshop...I guess?
 : If you don't like modern C / C++11, there's always ASM, or Pascal, or old C with the original Macintosh Programmers Workshop...I guess?
 
-Apple's Universal Interfaces (abandonware)
+Apple's Universal Interfaces
 
 - Can be extracted from (free, abandonware) Macintosh Programmers Workshop...
 - [[https://storage.googleapis.com/awkward/InterfacesAndLibraries.zip][...or found online, somewhere.]]
 
 * Recommended extras (1/2)
 
-68k Macintosh emulator - strongly recommended. 
-Options:
+68k Macintosh emulator - strongly recommended for rapid development. 
+Options (all open source!):
 
-- [[http://www.gryphel.com/c/minivmac/index.html][Mini vMac]]
+- [[http://www.gryphel.com/c/minivmac/index.html][Mini vMac]] (recommended!)
 - [[http://www.hampa.ch/pce/][PCE]]
-- Basilisk II (no longer maintained)
-- Write your own?
+- [[https://basilisk.cebix.net/][Basilisk II]] (no longer maintained)
+- Write & release your own?
+
+.image minivmac.png _ 250
+
+: Why a Mac emulator if you have the real thing?
+: Copying even very small files onto vintage hardware can be tedious - either via floppy disk or networking.
+: Fortunately, if your program runs correctly on Mini vMac, it's almost certainly going to work on the real thing. 
 
 * Recommended extras (2/2)
 
