@@ -63,11 +63,11 @@ https://github.com/DrJosh9000/Talks
 
 * Ingredients
 
-Compiler & toolchain. For this talk: [[https://github.com/autc04/Retro68][Retro68]].
+Modern computer, compiler & toolchain. For this talk: [[https://github.com/autc04/Retro68][Retro68]].
 
 : If you don't like modern C / C++11, there's always ASM, or Pascal, or old C with the original Macintosh Programmers Workshop...I guess?
 
-Apple's Universal Interfaces
+Retro68 needs: Apple's legacy "Universal Interfaces"
 
 - Can be extracted from (free, abandonware) Macintosh Programmers Workshop...
 - [[https://storage.googleapis.com/awkward/InterfacesAndLibraries.zip][...or found online, somewhere.]]
@@ -105,7 +105,7 @@ Utilities of the era (more abandonware)
 
 - ResEdit, MacPaint, ClarisWorks
 
-* The Toolchain, Retro68
+* How to Retro68
 
 * Retro68
 
@@ -124,3 +124,7 @@ Now supports Ninja in addition to Cmake!
 * MacPaint and QuickDraw are open source*
 
 Sort of. Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. _"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
+
+* Mac-era Games
+
+- [[https://github.com/softdorothy/glider_4][Glider]], [[https://github.com/softdorothy/pararena_2][Pararena]], [[https://github.com/softdorothy/glypha_III][Glypha]] - open source!
