@@ -13,15 +13,19 @@ https://github.com/DrJosh9000/Talks
 
 * Why?
 
-* Why?
+* Mostly because...
 
-- Make new use of vintage hardware (retrocomputing)
+.image macplus.jpg _ 600
+.caption Macintosh Plus. Photo: J. Deprez
+
+: Because I happen to have some heritage Macs lying around.
+
+* Why else?
+
+- Make new use of old hardware (retrocomputing)
 - Massive portability (via emulators)
-- For a lark
-- MacPaint and QuickDraw are open source*
+- Because I can
 - Motorola 68000 CPU predates Meltdown & Spectre ;-)
-
-*Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. _"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
 
 * Okay, why not?
 
@@ -45,6 +49,15 @@ https://github.com/DrJosh9000/Talks
 .caption Macintosh Programmers Workshop, running under Mini vMac.
 
 : Reason 3: You *want* to code in Macintosh Programmers Workshop? Fortunately, you don't have to.
+
+* Option 1: HyperCard
+
+.image hypercard.png _ 600
+.caption HyperCard - the original Twine?
+
+* Option 2: Something something C
+
+: This is the one I'm going to talk about mostly, because HyperCard is largely dead.
 
 * Getting Started
 
@@ -105,3 +118,9 @@ It's GCC, essentially - with some extras:
 Now supports Ninja in addition to Cmake!
 
 * Demo time!
+
+* Notes
+
+* MacPaint and QuickDraw are open source*
+
+Sort of. Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. _"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
