@@ -141,6 +141,21 @@ Now supports Ninja in addition to Cmake!
 
 * Demo time!
 
+* Getting things onto your old Mac
+
+* Transferring files
+
+Options:
+
+- Floppy disks? (No disk drive)
+- [[http://netatalk.sourceforge.net/][Netatalk (v2)]]? (No physical bridge)
+- [[https://www.bigmessowires.com/floppy-emu/][FloppyEmu]].
+
+If you're going to buy something, Floppy Emu is recommended.
+
+: Who owns a floppy drive these days?
+: Can you bridge Old AppleTalk and Ethernet?
+
 * Notes
 
 * MacPaint and QuickDraw are open source*
