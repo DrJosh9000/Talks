@@ -18,7 +18,9 @@ https://github.com/DrJosh9000/Talks
 .image macplus.jpg _ 600
 .caption Macintosh Plus. Photo: J. Deprez
 
-: Because I happen to have some heritage Macs lying around.
+: Conference-driven development. 
+: I wanted to demonstrate something using a heritage Macintosh at /dev/world 
+: last year, and as part of that I made a small game.
 
 * Why else?
 
@@ -43,7 +45,7 @@ https://github.com/DrJosh9000/Talks
 * Accessibility issues
 
 .image keyboard.jpg _ 600
-.caption Keyboard forever! Photo & Keyboard repair: J. Deprez
+.caption Keyboard forever! Photo: J. Deprez
 
 : Reason 2: Whether you are deploying to an emulator or to the real thing, the early Macintoshes were built almost entirely upon "state-of-the-art" mouse and keyboard input modality. Modern systems can be more accessible, with though this is often untrue of games.
 
@@ -62,17 +64,22 @@ https://github.com/DrJosh9000/Talks
 : So there's HyperCard. Cyan, who you may know as the makers of Myst, are responsible for some seriously good HyperCard games back in the day: The Manhole, Spelunx, Cosmic Osmo, defining a genre of games to come.
 : Think of HyperCard as being like Twine but with a fixed-size window.
 
-* HyperCard
+* HyperCard Online
 
 .image hypercard-online.png _ 600
 .caption Upload your HyperCard stacks to the Internet Archive, to play in a web emulator! 
 .caption Screenshot taken from [[hypercardonline.tk]].
 
+* HyperCard Online
+
+.image internet-archive.png _ 600
+.caption [[https://archive.org/details/hypercardstacks][The Internet Archive HyperCard collection]].
+
 : Devving in HyperCard is worth doing at least once. But it's not very Open Source - mostly just Abandonware.
 
 * Option 2: Something something C
 
-: This is the one I'm going to focus on.
+: This is the option I'm going to focus on for the rest of the talk.
 
 * Getting Started
 
