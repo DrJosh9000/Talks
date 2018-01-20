@@ -11,32 +11,94 @@ https://github.com/DrJosh9000/Talks
 
 * Concept
 
-A "mini Macintosh"
+.image downsize.jpg _ 400
+
+A "mini Macintosh"...
 
 - that would let me play original _Lemmings_ at my desk
-- be lightweight and based on commodity materals and hardware
-- I could show off at /dev/world
+- be lightweight and bulit from commodity materals and hardware
+- I could show off at /dev/world.
 
-* 
+* Not a new idea
 
-: Let's talk about balsa wood.
+John Leake, 2013 - a 1/3 scale functioning Macintosh based on Raspberry Pi
+  [[https://www.cultofmac.com/242234/smallest-working-macintosh/]]
 
-* It's light
+Riuz Brothers, 2014 - 3D-printable recipe for Macintosh-inspired Pi case
+  [[https://learn.adafruit.com/mini-mac-pi/3d-printing]]
 
-* It's soft
+Jeroen Domburg, 2017 - Miniaturised Macintosh
+  [[https://hackaday.com/2017/11/27/jeroen-domburg-miniaturizes-a-mac/]]
 
-* It's biodegradable
+* Balsa wood
 
-* It looks quite nice
+: Let's talk about balsa wood. This is the fundamental difference.
 
-* You can glue it
+: It's light
+: It's soft
+: It's biodegradable
+: It looks quite nice
+: You can glue it
+: Put nails in it
+: Cut it with a sharp knife
+: It's strong
+: It's cheap
+: It doesn't need a 3D printer
+: It doesn't need a CAD software to design, and I'm lazy
+: Easy to iterate design ideas
 
-* Put nails in it
+* Construction methodology
 
-* Cut it with a sharp knife
+Idea: build similarly to original Mac construction.
+Attach the screen and logic board to the front and the remaining 5 sides as a "shell" that slides on.
 
-* It's strong
+* Iteration 0
 
-* It's cheap
+.image attempt0.jpg _ 700
 
-* It doesn't need a 3D printer
+* Problems
+
+- Fragile - glued edges of balsa sheets
+- No easy way to hold display in
+- Couldn't easily build rest of case around it
+
+* Iteration 1
+
+: Iteration 1 went a bit better, as I had started building the front and the base together.
+: It was big enough that the display could be easily taken out and put back in.
+
+.image attempt1-front.jpg _ 700
+
+* Iteration 1
+
+.image attempt1-side.jpg _ 700
+
+* Iteration 1
+
+.image attempt1-internal.jpg _ 700
+
+: But there was one key problem which meant I abandoned this iteration after about two weeks.
+
+* Iteration 1
+
+.image attempt1-sidesketch1.jpg _ 700
+
+: It was front heavy. Balsa is light, and the Raspberry Pi couldn't counterbalance the display.
+: Original macintoshes don't have this problem as their display is a large heavy
+: cathode ray tube that extends backwards a fair distance, putting the centre
+: of gravity more...central.
+
+* Iteration 1
+
+.image attempt1-sidesketch2.jpg _ 700
+
+* Iteration 2
+
+.image attempt2-sidesketch.jpg _ 700
+
+: In the next iteration I started with a base that was a lot more solid first. 
+: It uses rectangular dowel for the sides of the base and directly beneath the
+: heavy display. Reducing the gap beneath the display (part of the iconic mac
+: look) also helps reduce the centre of gravity. 
+: I suppose I could have used some fishing weights or something to counterbalance.
+: In the end it was less of a problem.
