@@ -24,12 +24,13 @@ https://github.com/DrJosh9000/Talks
 
 * Why else?
 
-: Fun. I have a low fun threshold?
+: Fun. I have quite a high fun threshold, as you can probably tell.
 : And all these other reasons.
 
 - Fun
 - Make new use of old hardware (retrocomputing)
 - Massive portability (via emulators)
+- I'm a filthy hipster
 - Because I can
 - Motorola 68000 CPU predates Meltdown & Spectre ;-)
 
@@ -37,7 +38,9 @@ https://github.com/DrJosh9000/Talks
 
 * The limiting hardware
 
-: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. Expect a slow CPU, no more than 4 MB of RAM, a small monochrome display, basic sound output, and no internet access.
+: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. 
+: Expect a slow CPU, emulated floating point math, no more than 4 MB of RAM, a small monochrome display, 
+: basic sound output, and limted or no internet access.
 
 .image macpaint.jpg _ 600
 .caption The gorgeous 9 inch, 512 x 384 display of an early Macintosh. Photo & Art: J. Deprez
@@ -54,7 +57,11 @@ https://github.com/DrJosh9000/Talks
 .image mpw.png _ 600
 .caption Macintosh Programmers Workshop, running under Mini vMac.
 
-: Reason 3: Period compilers and tools, such as Macintosh Programmers Workshop, are an exercise in extreme frustration compared to modern text editors. I have a low fun threshold but MPW is beneath that.
+: Reason 3: Period compilers and tools, such as Macintosh Programmers Workshop, are 
+: an exercise in extreme frustration compared to modern text editors. My fun 
+: threshold is not quite this high.
+
+* Options for making a game
 
 * Option 1: HyperCard
 
@@ -80,6 +87,8 @@ https://github.com/DrJosh9000/Talks
 * Option 2: Something something C
 
 : This is the option I'm going to focus on for the rest of the talk.
+: Basically, instead of using an old toolchain, we can use a new toolchain and
+: cross-compile to the old architecture and OS.
 
 * Getting Started
 
@@ -142,6 +151,14 @@ Now supports Ninja in addition to Cmake!
 * Demo time!
 
 * Notes
+
+* What Mac to buy?
+
+Monochrome Macs:
+
+- Macintosh Classic - most durable
+- Macintosh Plus - most popular, but prone to hardware failure
+- Macintosh 128k - most expensive (first Mac)
 
 * MacPaint and QuickDraw are open source*
 
