@@ -22,6 +22,10 @@ https://github.com/DrJosh9000/Talks
 
 * Why else?
 
+: Fun. I have a low fun threshold?
+: And all these other reasons.
+
+- Fun
 - Make new use of old hardware (retrocomputing)
 - Massive portability (via emulators)
 - Because I can
@@ -48,16 +52,27 @@ https://github.com/DrJosh9000/Talks
 .image mpw.png _ 600
 .caption Macintosh Programmers Workshop, running under Mini vMac.
 
-: Reason 3: You *want* to code in Macintosh Programmers Workshop? Fortunately, you don't have to.
+: Reason 3: Period compilers and tools, such as Macintosh Programmers Workshop, are an exercise in extreme frustration compared to modern text editors. I have a low fun threshold but MPW is beneath that.
 
 * Option 1: HyperCard
 
 .image hypercard.png _ 600
 .caption HyperCard - the original Twine?
 
+: So there's HyperCard. Cyan, who you may know as the makers of Myst, are responsible for some seriously good HyperCard games back in the day: The Manhole, Spelunx, Cosmic Osmo, defining a genre of games to come.
+: Think of HyperCard as being like Twine but with a fixed-size window.
+
+* HyperCard
+
+.image hypercard-online.png _ 600
+.caption Upload your HyperCard stacks to the Internet Archive, to play in a web emulator! 
+.caption Screenshot taken from [[hypercardonline.tk]].
+
+: Devving in HyperCard is worth doing at least once. But it's not very Open Source - mostly just Abandonware.
+
 * Option 2: Something something C
 
-: This is the one I'm going to talk about mostly, because HyperCard is largely dead.
+: This is the one I'm going to focus on.
 
 * Getting Started
 
