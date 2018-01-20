@@ -9,6 +9,13 @@ josh.deprez@gmail.com
 https://github.com/DrJosh9000/Talks
 @DrJosh9000
 
+# This is a Go present file.
+# You can view it by:
+#  1. Install Go (golang.org)
+#  2. go get -u golang.org/x/tools/cmd/present
+#  3. Run `present -notes`
+#  4. Open a browser with the URL it gives you and navigate to this file.
+
 : Hello, welcome to my talk, etc
 
 * Why?
