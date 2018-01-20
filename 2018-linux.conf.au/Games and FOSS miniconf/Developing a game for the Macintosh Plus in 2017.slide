@@ -154,16 +154,33 @@ Now supports Ninja in addition to Cmake!
 
 * What Mac to buy?
 
-Monochrome Macs:
+Macintosh Classic 
 
-- Macintosh Classic - most durable
-- Macintosh Plus - most popular, but prone to hardware failure
-- Macintosh 128k - most expensive (first Mac)
+- Most durable
 
-* MacPaint and QuickDraw are open source*
+Macintosh Plus 
 
-Sort of. Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. _"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
+- Most popular, 
+- ROM used by most emulators, 
+- Prone to hardware failure.
 
-* Mac-era Games
+Macintosh 128k 
 
-- [[https://github.com/softdorothy/glider_4][Glider]], [[https://github.com/softdorothy/pararena_2][Pararena]], [[https://github.com/softdorothy/glypha_III][Glypha]] - open source!
+- Tend to be expensive (first Mac)
+- Extremely limited
+
+* MacPaint and QuickDraw 
+
+Open source!*
+
+*Sort of. Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. 
+
+_"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
+
+* Open-source Mac-era Games
+
+Good instructive reading on how to hold the APIs
+
+- [[https://github.com/softdorothy/glider_4][Glider 4]] (also Glider Pro)
+- [[https://github.com/softdorothy/pararena_2][Pararena 2]]
+- [[https://github.com/softdorothy/glypha_III][Glypha III]]
