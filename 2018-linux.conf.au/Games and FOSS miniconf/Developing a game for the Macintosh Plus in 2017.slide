@@ -83,7 +83,10 @@ Why not a retrocomputing talk?
 .image hypercard.png _ 600
 .caption HyperCard - the original Twine?
 
-: So there's HyperCard. Cyan, who you may know as the makers of Myst, are responsible for some seriously good HyperCard games back in the day: The Manhole, Spelunx, Cosmic Osmo, defining a genre of games to come.
+: So there's HyperCard. Cyan, who you may know as the makers of Myst, are 
+: responsible for some seriously good HyperCard games back in the day: The Manhole, 
+: Spelunx, Cosmic Osmo, defining a genre of games to come.
+: Another notable HyperCard game, Caper in the Castro, was one of the first ever LGBT games.
 : Think of HyperCard as being like Twine but with a fixed-size window.
 
 * HyperCard Online
@@ -164,6 +167,8 @@ It's GCC, essentially - with some extras:
 Now supports Ninja in addition to Cmake!
 
 * Demo time!
+
+Game: [[https://github.com/DrJosh9000/awakeman][Awakeman Picks Up Some Limes]]
 
 * Getting things onto your old Mac
 
