@@ -9,6 +9,13 @@ josh.deprez@gmail.com
 https://github.com/DrJosh9000/Talks
 @DrJosh9000
 
+# This is a Go present file.
+# You can view it by:
+#  1. Install Go (golang.org)
+#  2. go get -u golang.org/x/tools/cmd/present
+#  3. Run `present -notes`
+#  4. Open a browser with the URL it gives you and navigate to this file.
+
 : Hello, welcome to my talk, etc
 
 * Why?
@@ -24,12 +31,13 @@ https://github.com/DrJosh9000/Talks
 
 * Why else?
 
-: Fun. I have a low fun threshold?
+: Fun. I have quite a high fun threshold, as you can probably tell.
 : And all these other reasons.
 
 - Fun
 - Make new use of old hardware (retrocomputing)
 - Massive portability (via emulators)
+- I'm a filthy hipster
 - Because I can
 - Motorola 68000 CPU predates Meltdown & Spectre ;-)
 
@@ -37,7 +45,9 @@ https://github.com/DrJosh9000/Talks
 
 * The limiting hardware
 
-: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. Expect a slow CPU, no more than 4 MB of RAM, a small monochrome display, basic sound output, and no internet access.
+: Reason 1: the hardware is limited by modern standards, though perhaps not limited relative to embedded work. 
+: Expect a slow CPU, emulated floating point math, no more than 4 MB of RAM, a small monochrome display, 
+: basic sound output, and limted or no internet access.
 
 .image macpaint.jpg _ 600
 .caption The gorgeous 9 inch, 512 x 384 display of an early Macintosh. Photo & Art: J. Deprez
@@ -54,7 +64,11 @@ https://github.com/DrJosh9000/Talks
 .image mpw.png _ 600
 .caption Macintosh Programmers Workshop, running under Mini vMac.
 
-: Reason 3: Period compilers and tools, such as Macintosh Programmers Workshop, are an exercise in extreme frustration compared to modern text editors. I have a low fun threshold but MPW is beneath that.
+: Reason 3: Period compilers and tools, such as Macintosh Programmers Workshop, are 
+: an exercise in extreme frustration compared to modern text editors. My fun 
+: threshold is not quite this high.
+
+* Options for making a game
 
 * Option 1: HyperCard
 
@@ -80,6 +94,8 @@ https://github.com/DrJosh9000/Talks
 * Option 2: Something something C
 
 : This is the option I'm going to focus on for the rest of the talk.
+: Basically, instead of using an old toolchain, we can use a new toolchain and
+: cross-compile to the old architecture and OS.
 
 * Getting Started
 
@@ -158,10 +174,37 @@ If you're going to buy something, Floppy Emu is recommended.
 
 * Notes
 
-* MacPaint and QuickDraw are open source*
+* What Mac to buy?
 
-Sort of. Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. _"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
+Macintosh Classic 
 
-* Mac-era Games
+- Most durable
 
-- [[https://github.com/softdorothy/glider_4][Glider]], [[https://github.com/softdorothy/pararena_2][Pararena]], [[https://github.com/softdorothy/glypha_III][Glypha]] - open source!
+Macintosh Plus 
+
+- Most popular, 
+- ROM used by most emulators, 
+- Prone to hardware failure.
+
+Macintosh 128k 
+
+- Tend to be expensive (first Mac)
+- Extremely limited
+
+Or build your own?
+
+* MacPaint and QuickDraw 
+
+Open source!*
+
+*Sort of. Available from the [[http://www.computerhistory.org/atchm/macpaint-and-quickdraw-source-code/][Computer History Museum]]. 
+
+_"This_Material_is_Copyright_©_1984_Apple_Inc._and_is_made_available_only_for_non-commercial_use."_
+
+* Open-source Mac-era Games
+
+: Good instructive reading on how to hold the APIs
+
+- [[https://github.com/softdorothy/glider_4][Glider 4]] (also Glider Pro)
+- [[https://github.com/softdorothy/pararena_2][Pararena 2]]
+- [[https://github.com/softdorothy/glypha_III][Glypha III]]
